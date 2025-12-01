@@ -6,3 +6,10 @@ export const fetchMovies = (movies) => {
         payload: movies
     }
 }
+
+export const selectedMovie = (movie)=>{
+    return {
+        type : ActionType.SELECT_MOVIES,
+        payload:movie
+    }
+}
