@@ -1,7 +1,11 @@
 import { ActionType } from "../../action/action-types";
 
 const initialState = {
-    movies: [],
+    movies: [
+        {
+            name:'YeMarn'
+        }
+    ],
     movie: {}
 };
 
